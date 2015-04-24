@@ -1,0 +1,7 @@
+core = "7.x"
+description = "Deploy module for dantechdk.com"
+name = "Dantech Deploy"
+package = "Dantech"
+project = "dantech_deploy"
+version = "7.x-0.1"
+

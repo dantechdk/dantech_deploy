@@ -18,7 +18,7 @@ function dantech_deploy_install() {
 }
 
 /**
- * Disable Fixed Field which is not used anymore
+ * Basic site settings.
  */
 function dantech_deploy_update_7000() {
  // Setting for date api.
@@ -66,5 +66,21 @@ function dantech_deploy_update_7000() {
     }
     variable_set('pathauto_reduce_ascii', 1);
   }
+}
 
+/**
+ * Basic site information.
+ */
+function dantech_deploy_update_7001() {
+  variable_set('site_name', 'DanTech DK ApS');
+  variable_set('site_slogan', 'Bringing new ideas to manufacturing');
+  variable_set('site_email', 'salg@dantechdk.com');
+  variable_set('site_default_country', 'DK');
+}
+
+/**
+ * Enable custom modules.
+ */
+function dantech_deploy_update_7002() {
+  module_enable(array('dantech_pages', 'dantech_partners'));
 }

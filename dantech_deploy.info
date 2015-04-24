@@ -5,3 +5,27 @@ package = "Dantech"
 project = "dantech_deploy"
 version = "7.x-0.1"
 
+; Core
+dependencies[] = block
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = help
+dependencies[] = image
+dependencies[] = menu
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = toolbar
+dependencies[] = field_ui
+dependencies[] = file
+
+; Contrib
+dependencies[] = enterprise_rotator
+dependencies[] = features
+dependencies[] = googleanalytics
+dependencies[] = menu_block
+dependencies[] = pathauto
+dependencies[] = transliteration
+dependencies[] = views
+dependencies[] = wysiwyg

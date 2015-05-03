@@ -74,7 +74,7 @@ function dantech_deploy_update_7000() {
 function dantech_deploy_update_7001() {
   variable_set('site_name', 'DanTech DK ApS');
   variable_set('site_slogan', 'Bringing new ideas to manufacturing');
-  variable_set('site_email', 'salg@dantechdk.com');
+  variable_set('site_email', 'jeppe@dantechdk.com');
   variable_set('site_default_country', 'DK');
 }
 

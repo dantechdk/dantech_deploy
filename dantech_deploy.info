@@ -23,7 +23,6 @@ dependencies[] = file
 ; Contrib
 dependencies[] = enterprise_rotator
 dependencies[] = features
-dependencies[] = googleanalytics
 dependencies[] = menu_block
 dependencies[] = pathauto
 dependencies[] = transliteration
